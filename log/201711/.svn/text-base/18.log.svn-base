@@ -1,0 +1,5 @@
+---------------------------------------------------------------
+[ 2017-11-18T14:44:22+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/5
+[ info ] local.jxshop.com/banner/5 [运行时间：0.058719s][吞吐率：17.03req/s] [内存消耗：2,108.74kb] [文件加载：51]
+[ error ] [0]不知道怎么了[D:\Programing\jxshop\application\API\model\Banner.php:33]
+[ error ] 不知道怎么了

@@ -1,0 +1,9 @@
+K 18
+svn:global-ignores
+V 35
+.idea
+composer.lock
+*.log
+thinkphp
+
+END
