@@ -6,7 +6,8 @@ use app\lib\exception\ProductMissException;
 
 class Product extends BaseModel
 {
-    protected $hidden=['stock','delete_time','category_id','create_time','update_time','pivot'];
+    protected $hidden = ['stock', 'delete_time', 'category_id', 'create_time', 'update_time', 'pivot'];
+
     /**
      * 主图读取器
      * @param $value
@@ -17,6 +18,7 @@ class Product extends BaseModel
     {
         return $this->splicingPrefix($value, $data);
     }
+
 
     /**
      * 获取最新$count条商品数据
@@ -29,13 +31,17 @@ class Product extends BaseModel
         $listData = self::order('id', 'desc')
             ->limit($count)
             ->select();
-
-        if ($listData->isEmpty()) {
-            throw new ProductMissException();
-        }
-        //调用方法临时隐藏字段
-        $listData->hidden(['summary']);
-
         return $listData;
+    }
+
+    /**
+     * 通过分类id，获取该分类下的商品
+     * @param $id
+     * @return false|\PDOStatement|string|\think\Collection
+     */
+    public static function getProductByCategoryId($id)
+    {
+        $result = self::where(['category_id' => $id])->select();
+        return $result;
     }
 }

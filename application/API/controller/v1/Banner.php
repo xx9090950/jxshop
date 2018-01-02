@@ -26,7 +26,11 @@ class Banner
         //实例化id验证器对象并调用上面的goCheck方法,来获取并验证数据
         IdMustBePositiveInt::instance()->goCheck();
         //使用模型上的获取banner数据方法
-        return BannerModel::getBannerInfoById($id);
+        $banner=BannerModel::getBannerInfoById($id);
+        if (!$banner) {
+            throw new BannerMissException();
+        }
+        return $banner;
     }
 
 

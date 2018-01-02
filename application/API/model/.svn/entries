@@ -1,7 +1,7 @@
 10
 
 dir
-2
+4
 svn://gitee.com/BoQiKuangBenZhe/jxshop/application/API/model
 svn://gitee.com/BoQiKuangBenZhe/jxshop
 
@@ -26,16 +26,16 @@ svn://gitee.com/BoQiKuangBenZhe/jxshop
 
 41abad2e-afbe-4249-a59b-94b48b8ea9f9
 
-BaseModel.php
+Banner.php
 file
 
 
 
 
-2017-12-28T01:33:53.512512Z
-e561975b05d8dfa2a9324b7f956b26d1
-2017-12-27T15:17:10.000000Z
-2
+2018-01-02T08:18:00.814000Z
+4246fe3e940ba71b4697b4b728fe4cdf
+2018-01-02T08:37:49.000000Z
+4
 龚瑞祥 <xx9090950@gmail.com>
 
 
@@ -58,109 +58,7 @@ e561975b05d8dfa2a9324b7f956b26d1
 
 
 
-450
-
-Product.php
-file
-3
-
-
-
-2017-12-29T05:17:06.696051Z
-11fd7eb9c0e99a18c1c39c168f4796a4
-2017-12-29T05:42:32.000000Z
-3
-龚瑞祥 <xx9090950@gmail.com>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1008
-
-Image.php
-file
-
-
-
-
-2017-12-28T01:33:53.513515Z
-75b3d56729fc29b6cbf3f8e9e42ff584
-2017-12-27T15:17:10.000000Z
-2
-龚瑞祥 <xx9090950@gmail.com>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-392
-
-Theme.php
-file
-
-
-
-
-2017-12-28T01:33:53.515519Z
-597d39aa6e4569b0a2732b1651889e5e
-2017-12-27T15:17:10.000000Z
-2
-龚瑞祥 <xx9090950@gmail.com>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1611
+883
 
 BannerItem.php
 file
@@ -196,14 +94,14 @@ file
 
 304
 
-Banner.php
+BaseModel.php
 file
 
 
 
 
-2017-12-28T01:33:53.510506Z
-153dd4084bc4482593a6289f3a0e9330
+2017-12-28T01:33:53.512512Z
+e561975b05d8dfa2a9324b7f956b26d1
 2017-12-27T15:17:10.000000Z
 2
 龚瑞祥 <xx9090950@gmail.com>
@@ -228,5 +126,107 @@ file
 
 
 
-948
+450
+
+Image.php
+file
+
+
+
+
+2017-12-28T01:33:53.513515Z
+75b3d56729fc29b6cbf3f8e9e42ff584
+2017-12-27T15:17:10.000000Z
+2
+龚瑞祥 <xx9090950@gmail.com>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+392
+
+Product.php
+file
+
+
+
+
+2018-01-02T08:31:57.027000Z
+b9eec61bd4f5bd5c9ceeef26d8f889e4
+2018-01-02T08:37:49.000000Z
+4
+龚瑞祥 <xx9090950@gmail.com>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1151
+
+Theme.php
+file
+
+
+
+
+2018-01-02T08:23:15.782000Z
+e68dd4f6416cffbed96c39c217e2531c
+2018-01-02T08:37:49.000000Z
+4
+龚瑞祥 <xx9090950@gmail.com>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1449
 

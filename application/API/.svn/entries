@@ -1,7 +1,7 @@
 10
 
 dir
-2
+4
 svn://gitee.com/BoQiKuangBenZhe/jxshop/application/API
 svn://gitee.com/BoQiKuangBenZhe/jxshop
 
@@ -26,10 +26,10 @@ svn://gitee.com/BoQiKuangBenZhe/jxshop
 
 41abad2e-afbe-4249-a59b-94b48b8ea9f9
 
-model
+controller
 dir
 
-controller
+model
 dir
 
 validate

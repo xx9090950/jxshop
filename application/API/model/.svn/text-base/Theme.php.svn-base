@@ -34,9 +34,6 @@ class Theme extends BaseModel
     public static function getThemeDetailById($id)
     {
         $result = self::get($id, ['product', 'headImg']);
-        if (!$result) {
-            throw new ThemeMissException();
-        }
         return $result;
     }
 
@@ -51,9 +48,6 @@ class Theme extends BaseModel
     {
         $arrIds = explode(',', $ids);
         $result = self::with('head_img,toppic_img')->select($arrIds);
-        if (!$result) {
-            throw new ThemeMissException();
-        }
         return $result;
     }
 }

@@ -1,14 +1,14 @@
 10
 
 dir
-2
+4
 svn://gitee.com/BoQiKuangBenZhe/jxshop
 svn://gitee.com/BoQiKuangBenZhe/jxshop
 
 
 
-2017-12-27T15:17:10.000000Z
-2
+2018-01-02T08:37:49.000000Z
+4
 龚瑞祥 <xx9090950@gmail.com>
 has-props
 
@@ -26,16 +26,146 @@ has-props
 
 41abad2e-afbe-4249-a59b-94b48b8ea9f9
 
+.gitignore
+file
+
+
+
+
+2017-12-28T01:34:57.196328Z
+620a5094aa244bf68983a0dc3265f6ec
+2017-12-27T15:17:10.000000Z
+2
+龚瑞祥 <xx9090950@gmail.com>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+35
+
 .idea
 dir
 
-log
-dir
+.travis.yml
+file
+
+
+
+
+2017-12-28T01:34:57.198363Z
+8c63b33c1dc470e1998e739139de26a1
+2017-12-27T15:17:10.000000Z
+2
+龚瑞祥 <xx9090950@gmail.com>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2038
 
-runtime
-dir
+LICENSE.txt
+file
+
+
+
+
+2017-12-28T01:34:57.202373Z
+bb58a573107bbf5adafa4b9c577deaa0
+2017-12-27T15:17:10.000000Z
+2
+龚瑞祥 <xx9090950@gmail.com>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1822
 
-thinkphp
+README.md
+file
+
+
+
+
+2017-12-29T04:48:54.839596Z
+08e66f51ab9b3d7e5fed89f7b4a9dd27
+2017-12-29T05:42:32.000000Z
+3
+龚瑞祥 <xx9090950@gmail.com>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+460
+
+application
 dir
 
 build.php
@@ -72,114 +202,6 @@ edec0fe4b70e69c59186cf583d94222d
 
 1099
 
-phpunit.xml
-file
-
-
-
-
-2017-12-28T01:34:57.224113Z
-e133c6cec698364a5bc7c3490200f354
-2017-12-27T15:17:10.000000Z
-2
-龚瑞祥 <xx9090950@gmail.com>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-648
-
-.travis.yml
-file
-
-
-
-
-2017-12-28T01:34:57.198363Z
-8c63b33c1dc470e1998e739139de26a1
-2017-12-27T15:17:10.000000Z
-2
-龚瑞祥 <xx9090950@gmail.com>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2038
-
-extend
-dir
-
-README.md
-file
-3
-
-
-
-2017-12-29T04:48:54.839596Z
-08e66f51ab9b3d7e5fed89f7b4a9dd27
-2017-12-29T05:42:32.000000Z
-3
-龚瑞祥 <xx9090950@gmail.com>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-460
-
-vendor
-dir
-
 composer.json
 file
 
@@ -214,14 +236,14 @@ b3ad48c88d2a46c3285caa9888d8c11f
 
 861
 
-LICENSE.txt
+composer.lock
 file
 
 
 
 
-2017-12-28T01:34:57.202373Z
-bb58a573107bbf5adafa4b9c577deaa0
+2017-12-28T01:34:57.221108Z
+f3637dc49b9ab653681263bb546df6f3
 2017-12-27T15:17:10.000000Z
 2
 龚瑞祥 <xx9090950@gmail.com>
@@ -246,47 +268,56 @@ bb58a573107bbf5adafa4b9c577deaa0
 
 
 
-1822
+57934
+
+extend
+dir
+
+log
+dir
+
+phpunit.xml
+file
+
+
+
+
+2017-12-28T01:34:57.224113Z
+e133c6cec698364a5bc7c3490200f354
+2017-12-27T15:17:10.000000Z
+2
+龚瑞祥 <xx9090950@gmail.com>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+648
+
+public
+dir
+
+runtime
+dir
 
 tests
 dir
-
-application
-dir
-
-.gitignore
-file
-
-
-
-
-2017-12-28T01:34:57.196328Z
-620a5094aa244bf68983a0dc3265f6ec
-2017-12-27T15:17:10.000000Z
-2
-龚瑞祥 <xx9090950@gmail.com>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-35
 
 think
 file
@@ -322,40 +353,9 @@ file
 
 753
 
-public
+thinkphp
 dir
 
-composer.lock
-file
-
-
-
-
-2017-12-28T01:34:57.221108Z
-f3637dc49b9ab653681263bb546df6f3
-2017-12-27T15:17:10.000000Z
-2
-龚瑞祥 <xx9090950@gmail.com>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-57934
+vendor
+dir
 

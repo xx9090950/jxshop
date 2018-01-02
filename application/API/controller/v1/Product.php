@@ -11,11 +11,13 @@ namespace app\API\controller\v1;
 use app\API\model\Product as ProductModel;
 use app\API\validate\Count;
 use app\lib\exception\ProductMissException;
+use app\API\validate\IdMustBePositiveInt;
 
 class Product
 {
     /**
-     * @url http://local.jxshop.com/api/newProduct/v1?count=15
+     * @url http://local.jxshop.com/api/product/v1/new?count=15
+     * @http GET
      * @param $count integer
      * @return false|\PDOStatement|string|\think\Collection
      * @throws ProductMissException
@@ -23,7 +25,32 @@ class Product
     public function getNewProductList($count = 15)
     {
         Count::instance()->goCheck();
-        return ProductModel::getRecent($count);
+        $listData = ProductModel::getRecent($count);
+        if ($listData->isEmpty()) {
+            throw new ProductMissException();
+        }
+        //调用方法临时隐藏字段
+        $listData->hidden(['summary']);
+        return $listData;
+    }
+
+    /**
+     * @url http:local.jxshop.com/api/product/v1/by_category/id
+     * @http GET
+     * @param $id
+     * @return false|\PDOStatement|string|\think\Collection
+     * @throws ProductMissException
+     */
+    public function getAllInCategory($id)
+    {
+        IdMustBePositiveInt::instance()->goCheck();
+        $products = ProductModel::getProductByCategoryId($id);
+        if ($products->isEmpty()) {
+            throw new ProductMissException();
+        }
+        //调用方法临时隐藏字段
+        $products->hidden(['summary']);
+        return $products;
     }
 
 }
